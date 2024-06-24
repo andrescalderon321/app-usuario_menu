@@ -15,13 +15,13 @@
         <activity
             android:name=".MainActivity2"
             android:exported="false" />
-        <activity android:name=".hamburguesa"
+        <activity android:name=".Hamburguesa"
             android:exported="false"
             />
-        <activity android:name=".cafe"
+        <activity android:name=".Cafe"
             android:exported="false"
             />
-        <activity android:name=".helado"
+        <activity android:name=".Helado"
             android:exported="false"
             />
         <activity
