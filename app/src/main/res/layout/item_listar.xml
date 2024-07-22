@@ -10,9 +10,9 @@
         android:id="@+id/imageView3"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        app:srcCompat="@drawable/arepas"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arepas"
 
         />
 

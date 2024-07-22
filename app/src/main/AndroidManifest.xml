@@ -13,7 +13,7 @@
         android:theme="@style/Theme.APP_INT_MENU"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".Arepa"
             android:exported="false" />
         <activity android:name=".Hamburguesa"
             android:exported="false"
@@ -22,6 +22,9 @@
             android:exported="false"
             />
         <activity android:name=".Helado"
+            android:exported="false"
+            />
+        <activity android:name=".Perro"
             android:exported="false"
             />
         <activity

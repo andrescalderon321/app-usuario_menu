@@ -16,13 +16,18 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         binding.imagenbutton1.setOnClickListener {
-            val intent = Intent(this,MainActivity2::class.java)
+            val intent = Intent(this,Arepa::class.java)
             startActivity(intent)
         }
 
         binding.imagenbutton2.setOnClickListener{
             val intent = Intent(this,Hamburguesa::class.java)
+            startActivity(intent)
+        }
+        binding.imagenbutton3.setOnClickListener{
+            val intent = Intent(this,Perro::class.java)
             startActivity(intent)
         }
 
