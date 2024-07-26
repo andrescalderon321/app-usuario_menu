@@ -4,8 +4,11 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.app_int_menu.Listar
+import com.example.app_int_menu.ListarecyclerviewProvider
 import com.example.app_int_menu.R
+import com.example.app_int_menu.databinding.CafeBinding
 
 class ListarViewHolder (view: View):RecyclerView.ViewHolder(view) {
 
@@ -18,6 +21,10 @@ class ListarViewHolder (view: View):RecyclerView.ViewHolder(view) {
         text2.text = listarmodel.contenido
         text3.text = listarmodel.contenidodos
 
+        Glide.with(foto.context).load(listarmodel.foto).into(foto)
+
+
+        }
+
 
     }
-}
