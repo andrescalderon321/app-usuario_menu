@@ -22,14 +22,14 @@ class ListarecyclerviewProvider {
         )
 
         val listahelado = listOf<Listar>(
-            Listar("helado de maracuya  ","arepa rellena queso","contenido2","htttp/holamundo.com"),
-            Listar("te","arepa_rellena res ","contenido3","htttp/holamundo.com"),
-            Listar("cafe extra negro ","arepa rellena pollo ","contenido4","htttp/holamundo.com"),
-            Listar("cafe con leche ","arepa rellena queso","contenido2","htttp/holamundo.com"),
-            Listar("arepa con carne","arepa_rellena res ","contenido3","htttp/holamundo.com"),
-            Listar("arepa de pollo ","arepa rellena pollo ","contenido4","htttp/holamundo.com"),
-            Listar("arepa mixta","arepa rellena pollo y carne ","contenido5","htttp/holamundo.com"),
-            Listar("arepa mixta","arepa rellena pollo y carne ","contenido5","htttp/holamundo.com"),
+            Listar("Helado de cafe  ","helado de cafe en vaso ","contenido2","https://www.cocinatis.com/archivos/202207/CTIS0587-receta-helado-de-cafe_desktop_horizontal_full_width.jpg"),
+            Listar("Helado de maracuya","helado de maracuya en vaso  ","contenido3","https://img.freepik.com/fotos-premium/helado-maracuya-splash-maracuya_747552-5979.jpg?w=360"),
+            Listar("Helado de chicle ","helado de chicle en vaso  ","contenido4","https://www.eis-perfecto.de/wp-content/uploads/2024/06/Bubble-GumTwist-Eis-848x477.jpg"),
+            Listar("Helado de ron con pasas ","helado de ron con pasas en vaso","contenido2","https://www.laylita.com/recetas/wp-content/uploads/2022/08/Receta-del-helado-de-ron-con-pasas.jpg"),
+            Listar("Helado de fresa","helado de fresa en vaso ","contenido3","https://www.comedera.com/wp-content/uploads/2022/04/Helado-de-fresas-casero-shutterstock_1477385882.jpg"),
+            Listar("Helado de chocolate ","helado de chocolate en vaso ","contenido4","https://www.comedera.com/wp-content/uploads/2022/04/Helado-de-chocolate-sin-azucar-casero-shutterstock_1418765711.jpg"),
+            Listar("Helado de vainilla ","helado de vainilla en vaso ","contenido5","https://www.comedera.com/wp-content/uploads/2022/05/Helado-de-vainilla-sin-azucar.jpg"),
+
         )
 
         val listaperro = listOf<Listar>(

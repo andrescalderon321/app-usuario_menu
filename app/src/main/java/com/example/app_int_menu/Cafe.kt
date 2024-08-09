@@ -26,8 +26,7 @@ class Cafe : AppCompatActivity() {
     }
     fun initRecyclerView(){
 
-        val recyclerViewcafe
-                = findViewById<RecyclerView>(R.id.recycler_cafe)
+        val recyclerViewcafe= findViewById<RecyclerView>(R.id.recycler_cafe)
         recyclerViewcafe.layoutManager = LinearLayoutManager(this)
         recyclerViewcafe.adapter= Listaradapter(ListarecyclerviewProvider.listacafe)
     }

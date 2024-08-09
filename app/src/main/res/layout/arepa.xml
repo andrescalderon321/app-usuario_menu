@@ -10,9 +10,31 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_arepa"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        />
 
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <!-- Otros elementos de tu layout pueden ir aquí -->
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:id="@+id/bottomNavigationView"
+            android:backgroundTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/boton_nav"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
 
 
 </FrameLayout>
+
+
