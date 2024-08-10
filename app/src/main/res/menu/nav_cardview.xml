@@ -8,15 +8,5 @@
         app:showAsAction="ifRoom|withText"
 
         />
-    <item
-        android:title="Add"
-        android:id="@+id/profile"
-        app:showAsAction="ifRoom|withText"
 
-        />
-    <item
-        android:title="Cantidad"
-        android:id="@+id/settings"
-        app:showAsAction="ifRoom|withText"
-        />
 </menu>

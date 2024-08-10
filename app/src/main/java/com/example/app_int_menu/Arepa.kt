@@ -8,8 +8,11 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.app_int_menu.adapter.Listaradapter
+import com.example.app_int_menu.databinding.ArepaBinding
 
 class Arepa : AppCompatActivity() {
+
+    private lateinit var binding: ArepaBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

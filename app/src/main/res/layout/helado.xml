@@ -12,16 +12,6 @@
         android:layout_height="wrap_content"
         />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
-        android:layout_height="67dp"
-        android:layout_gravity="bottom"
-        android:backgroundTint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="parent"
-        app:menu="@menu/boton_nav">
 
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 </FrameLayout>

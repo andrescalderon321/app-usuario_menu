@@ -18,28 +18,28 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.imagenbutton1.setOnClickListener {
-            val intent = Intent(this,Arepa::class.java)
+            val intent = Intent(this, Arepa::class.java)
             startActivity(intent)
         }
 
-        binding.imagenbutton2.setOnClickListener{
-            val intent = Intent(this,Hamburguesa::class.java)
+        binding.imagenbutton2.setOnClickListener {
+            val intent = Intent(this, Hamburguesa::class.java)
             startActivity(intent)
         }
-        binding.imagenbutton3.setOnClickListener{
-            val intent = Intent(this,Perro::class.java)
-            startActivity(intent)
-        }
-
-        binding.imagenbutton6.setOnClickListener{
-            val intent = Intent(this,Cafe::class.java)
+        binding.imagenbutton3.setOnClickListener {
+            val intent = Intent(this, Perro::class.java)
             startActivity(intent)
         }
 
-        binding.imagenbutton11.setOnClickListener{
-            val intent = Intent(this,Helado::class.java)
+        binding.imagenbutton6.setOnClickListener {
+            val intent = Intent(this, Cafe::class.java)
             startActivity(intent)
         }
 
+        binding.imagenbutton11.setOnClickListener {
+            val intent = Intent(this, Helado::class.java)
+            startActivity(intent)
         }
+
+    }
     }
