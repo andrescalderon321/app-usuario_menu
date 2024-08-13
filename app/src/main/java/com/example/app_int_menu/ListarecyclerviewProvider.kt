@@ -8,8 +8,8 @@ class ListarecyclerviewProvider {
             Listar("arepa ","arepa rellena pollo ","contenido4","https://www.elespectador.com/resizer/v2/ZVT27NKSWFGLDCRYQ4KVQ2ZHMU.jpg?auth=1f81268d9a4e32dc802267a6209a8466e36de75f24485bb7aa85692d73f69527&width=1110&height=739&smart=true&quality=60"),
             Listar("arepa de huevo ","arepa de huevo costeña"," Arepa frita rellena de huevo ","https://steemitimages.com/DQmc4gZjLdfvLuLN1aSytQB1W9pDEvpsM1NhYjEZ1qBWr88/Recetas_SitePANIntl_Colombia_Destacada_arepa-de-huevo.jpg"),
             Listar("arepa con pollo","arepa_rellena de pollo con las salsas de la casa ","contenido3","https://www.lamayorista.com.co/recursos/images/recetas/35ba2-1511194117-arepa-rellena-venezolana-616.jpg"),
-            Listar("arepa con huevo de codorniz  ","arepa rellena de maizitos,huevos de codorniz y pollo ","contenido4","https://speedy.uenicdn.com/338635af-2322-44e8-a134-fcefd0c69bff/c512_a/image/upload/v1594587503/business/98039939-2ec5-4bb0-9a20-cf33285e0388.jpg"),
-            Listar("arepa con pollo y aguacate","arepa rellena de pollo y aguacate con salsas de la casa ","contenido5","https://nuval.com.co/wp-content/uploads/2022/02/Arepas-rellenas-con-pollo-y-aguacate.jpg"),
+            Listar("arepa  huevo codorniz  ","arepa rellena de maizitos,huevos de codorniz y pollo ","contenido4","https://speedy.uenicdn.com/338635af-2322-44e8-a134-fcefd0c69bff/c512_a/image/upload/v1594587503/business/98039939-2ec5-4bb0-9a20-cf33285e0388.jpg"),
+            Listar("arepa pollo y aguacate","arepa rellena de pollo y aguacate con salsas de la casa ","contenido5","https://nuval.com.co/wp-content/uploads/2022/02/Arepas-rellenas-con-pollo-y-aguacate.jpg"),
 
         )
         val listacafe = listOf<Listar>(

@@ -15,6 +15,8 @@ class Arepa : AppCompatActivity() {
     private lateinit var binding: ArepaBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ArepaBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         enableEdgeToEdge()
         setContentView(R.layout.arepa)
@@ -28,10 +30,8 @@ class Arepa : AppCompatActivity() {
     }
     fun initRecyclerView(){
 
-        val recyclerView = findViewById<RecyclerView>(R.id.recycler_arepa)
-        recyclerView.layoutManager = LinearLayoutManager(this)
-        recyclerView.adapter=Listaradapter(ListarecyclerviewProvider.lista)
-
-
+        val recyclerViewcafe= findViewById<RecyclerView>(R.id.recycler_arepa)
+        recyclerViewcafe.layoutManager = LinearLayoutManager(this)
+        recyclerViewcafe.adapter= Listaradapter(ListarecyclerviewProvider.lista)
     }
 }
